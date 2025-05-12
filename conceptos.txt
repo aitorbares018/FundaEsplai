@@ -1,0 +1,26 @@
+Yo cuando estuve cursando el ciclo superior de desarrollo web estudie diversos lenguajes de programacion ,
+uno de los lenguajes que usamos fue en primero fue java y tambien empezamos a tocar un poco de php y SQL,
+ya en segundo empezamos a hacer mucho mas php, luego tambien en segundo estuve tocando sobretodo javascript.
+Este año empeze el curso de DAM ambientado en los videoujuegos y bueno toque pocas cosas sobre kotlin, C Sharp y tambien C++.
+
+
+Variables:Es un conjunto que de datos que le asignamos un valor y utilizamos para guardar ciertos datos.
+Funciones: Conjunto de variables que se se divide para hacer diversos procesos en la programacion
+Recursividad:No conozco nada.
+Bucles:Conozco los bucles tres tipos de bucles en el lenguaje de programacion el (do,while,for) el do no me acuerdo para que tipos de bucles se usaban,
+el while se solian usar este tipo de bucles sino me equivoco para el tema de condiciones y el for tampoco me acuerdo porque se suele utilizar.
+Condicionales: Me suena pero no sabria definirtelo.
+JSON:Es un archivo que guarda mucha informacion sobre objeto que son en javascript que tiene un inicio y final.Esto lo he dado pero no se definir.
+XML:Esto se que es algun tipo de lenguaje porque lo estuve dando en la asignatura de lenguaje de marcas.
+HTML:Es un lenguaje de marca que se suele utilizar para crear y diseñar paginas web.
+Clases: Es la definicion que le damos en el HTML y para separar y estructurar el codigo , 
+en el mundo de paginas web se utilizan las clases para hacer el diseño del css.Tambien hay en java es una manera de separ funciones estructuradas
+que se llaman classes sino me equivoco.
+Herencia: Sirve para pillar sino me equivoco una variable de otra clase que de ahi viene herencia que tu coges la variable de una clase de madre.
+SQL: Es un lenguaje de programacion que se utiliza para almacenamiento de base de datos. 
+Queries: Se que es pero no se como explicar el concepto , se que es algo relacionado a las base de datos y a la hora de relacion las tablas.
+Commit: Funcion de github que se utiliza para añadir una nueva modificacion de un archivo.
+Pull: Funcion de github que sirve para actulizar una informacion de cierta rama que se suele usar cuando haces un mergue a una rama y asi
+ganar la informacion del mergue nueva y se actualiza.
+Request: Es para pedir sino me equivoco informacion a una api.
+API:Se que es una manera para comunicarse entre un cliente y un servidor o me suena algo parecido que se suelen pedir o enviar o eliminar.
