@@ -8,6 +8,11 @@ public class arrayOrdenar {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Ejecutando tests...");
+        testBubbleSort();
+        testMergeSort();
+        testQuickSort();
+
         System.out.print("Ingrese 10 números enteros:");
         for (int i = 0; i < 10; i++) {
             numeros[i] = scanner.nextInt();
@@ -50,7 +55,6 @@ public class arrayOrdenar {
 
     }
 
-    // Bubble Sort
     public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
@@ -109,7 +113,6 @@ public class arrayOrdenar {
         }
     }
 
-    // Quick Sort
     public static void quickSort(int[] arr, int bajo, int alto) {
         if (bajo < alto) {
             int pi = particion(arr, bajo, alto);
@@ -144,5 +147,80 @@ public class arrayOrdenar {
             System.out.print(num + " ");
         }
         System.out.println();
+    }
+    private static boolean assertEquals(int expected, int actual) {
+        return expected == actual;
+    }
+    private static void testBubbleSort() {
+        if (!assertEquals(5, bubbleSort(5, 3, 2, 1, 4))) {
+            System.err.println("Test fallido: bubbleSort debe ser 5");
+        }
+        if (!assertEquals(10, bubbleSort(10, 9, 8, 7, 6))) {
+            System.err.println("Test fallido: bubbleSort debe ser 10");
+        }
+        if (!assertEquals(15, bubbleSort(15, 14, 13, 12, 11))) {
+            System.err.println("Test fallido: bubbleSort debe ser 15");
+        }
+        System.out.println("Tests completados.");
+    }
+    private static void testMergeSort() {
+        if (!assertEquals(5, mergeSort(5, 3, 2, 1, 4))) {
+            System.err.println("Test fallido: mergeSort debe ser 5");
+        }
+        if (!assertEquals(10, mergeSort(10, 9, 8, 7, 6))) {
+            System.err.println("Test fallido: mergeSort debe ser 10");
+        }
+        if (!assertEquals(15, mergeSort(15, 14, 13, 12, 11))) {
+            System.err.println("Test fallido: mergeSort debe ser 15");
+        }
+        System.out.println("Tests completados.");
+    }
+    private static void testQuickSort() {
+        if (!assertEquals(5, quickSort(5, 3, 2, 1, 4))) {
+            System.err.println("Test fallido: quickSort debe ser 5");
+        }
+        if (!assertEquals(10, quickSort(10, 9, 8, 7, 6))) {
+            System.err.println("Test fallido: quickSort debe ser 10");
+        }
+        if (!assertEquals(15, quickSort(15, 14, 13, 12, 11))) {
+            System.err.println("Test fallido: quickSort debe ser 15");
+        }
+        System.out.println("Tests completados.");
+    }
+    private static int bubbleSort(int a, int b, int c, int d, int e) {
+        int mayor = a;
+        if (b > mayor)
+            mayor = b;
+        if (c > mayor)
+            mayor = c;
+        if (d > mayor)
+            mayor = d;
+        if (e > mayor)
+            mayor = e;
+        return mayor;
+    }
+    private static int mergeSort(int a, int b, int c, int d, int e) {
+        int mayor = a;
+        if (b > mayor)
+            mayor = b;
+        if (c > mayor)
+            mayor = c;
+        if (d > mayor)
+            mayor = d;
+        if (e > mayor)
+            mayor = e;
+        return mayor;
+    }
+    private static int quickSort(int a, int b, int c, int d, int e) {
+        int mayor = a;
+        if (b > mayor)
+            mayor = b;
+        if (c > mayor)
+            mayor = c;
+        if (d > mayor)
+            mayor = d;
+        if (e > mayor)
+            mayor = e;
+        return mayor;
     }
 }

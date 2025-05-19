@@ -39,6 +39,7 @@ public class factorial {
         int factorial = 1;
 
         Scanner scanner = new Scanner(System.in);
+        
         testCalcularFactorial();
 
         System.out.print("Introduce un número: ");
