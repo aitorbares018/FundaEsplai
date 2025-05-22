@@ -34,6 +34,7 @@ public class Main {
                     System.out.println("👋 Saliendo...");
 
                 default:
+                    System.out.println("❌ Opción inválida.");
                     break;
             }
 
