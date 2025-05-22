@@ -32,7 +32,7 @@ public class Main {
                     break;
                 case 0:
                     System.out.println("👋 Saliendo...");
-
+                    break;
                 default:
                     System.out.println("❌ Opción inválida.");
                     break;
