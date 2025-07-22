@@ -1,0 +1,308 @@
+[
+  {
+    "municipio": "Barcelona",
+    "población": 1620809,
+    "provincia": "Barcelona",
+    "comarca": "Barcelonés"
+  },
+  {
+    "municipio": "L'Hospitalet de Llobregat",
+    "población": 257349,
+    "provincia": "Barcelona",
+    "comarca": "Barcelonés"
+  },
+  {
+    "municipio": "Badalona",
+    "población": 217741,
+    "provincia": "Barcelona",
+    "comarca": "Barcelonés"
+  },
+  {
+    "municipio": "Terrassa",
+    "población": 216428,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Sabadell",
+    "población": 209931,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Lérida",
+    "población": 137327,
+    "provincia": "Lérida",
+    "comarca": "Segriá"
+  },
+  {
+    "municipio": "Tarragona",
+    "población": 131507,
+    "provincia": "Tarragona",
+    "comarca": "Tarragonés"
+  },
+  {
+    "municipio": "Mataró",
+    "población": 126127,
+    "provincia": "Barcelona",
+    "comarca": "Maresme"
+  },
+  {
+    "municipio": "Santa Coloma de Gramenet",
+    "población": 117597,
+    "provincia": "Barcelona",
+    "comarca": "Barcelonés"
+  },
+  {
+    "municipio": "Reus",
+    "población": 103123,
+    "provincia": "Tarragona",
+    "comarca": "Bajo Campo"
+  },
+  {
+    "municipio": "Gerona",
+    "población": 100266,
+    "provincia": "Gerona",
+    "comarca": "Gironés"
+  },
+  {
+    "municipio": "San Cugat del Vallés",
+    "población": 89516,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Cornellá de Llobregat",
+    "población": 86610,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "San Baudilio de Llobregat",
+    "población": 82142,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Rubí",
+    "población": 75568,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Manresa",
+    "población": 75152,
+    "provincia": "Barcelona",
+    "comarca": "Bages"
+  },
+  {
+    "municipio": "Vilanova i la Geltrú",
+    "población": 66077,
+    "provincia": "Barcelona",
+    "comarca": "Garraf"
+  },
+  {
+    "municipio": "Viladecans",
+    "población": 65993,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Castelldefels",
+    "población": 65954,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "El Prat de Llobregat",
+    "población": 63897,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Granollers",
+    "población": 60695,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Oriental"
+  },
+  {
+    "municipio": "Cerdanyola del Vallés",
+    "población": 57723,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Mollet del Vallés",
+    "población": 51128,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Oriental"
+  },
+  {
+    "municipio": "Gavá",
+    "población": 46538,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Figueras",
+    "población": 45961,
+    "provincia": "Gerona",
+    "comarca": "Alto Ampurdán"
+  },
+  {
+    "municipio": "Esplugas de Llobregat",
+    "población": 45890,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "San Feliu de Llobregat",
+    "población": 44198,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Vic",
+    "población": 43964,
+    "provincia": "Barcelona",
+    "comarca": "Osona"
+  },
+  {
+    "municipio": "Igualada",
+    "población": 39540,
+    "provincia": "Barcelona",
+    "comarca": "Anoia"
+  },
+  {
+    "municipio": "Vilafranca del Penedés",
+    "población": 39532,
+    "provincia": "Barcelona",
+    "comarca": "Alto Penedés"
+  },
+  {
+    "municipio": "Blanes",
+    "población": 38813,
+    "provincia": "Gerona",
+    "comarca": "Selva"
+  },
+  {
+    "municipio": "Ripollet",
+    "población": 37899,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Lloret de Mar",
+    "población": 36878,
+    "provincia": "Gerona",
+    "comarca": "Selva"
+  },
+  {
+    "municipio": "San Adrián de Besós",
+    "población": 36624,
+    "provincia": "Barcelona",
+    "comarca": "Barcelonés"
+  },
+  {
+    "municipio": "El Vendrell",
+    "población": 36568,
+    "provincia": "Tarragona",
+    "comarca": "Bajo Penedés"
+  },
+  {
+    "municipio": "Montcada i Reixac",
+    "población": 35063,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Olot",
+    "población": 34194,
+    "provincia": "Gerona",
+    "comarca": "Garrotxa"
+  },
+  {
+    "municipio": "San Juan Despí",
+    "población": 33873,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Tortosa",
+    "población": 33445,
+    "provincia": "Tarragona",
+    "comarca": "Bajo Ebro"
+  },
+  {
+    "municipio": "Barberá del Vallés",
+    "población": 32860,
+    "provincia": "Barcelona",
+    "comarca": "Vallés Occidental"
+  },
+  {
+    "municipio": "Cambrils",
+    "población": 32855,
+    "provincia": "Tarragona",
+    "comarca": "Bajo Campo"
+  },
+  {
+    "municipio": "San Pedro de Ribas",
+    "población": 30142,
+    "provincia": "Barcelona",
+    "comarca": "Garraf"
+  },
+  {
+    "municipio": "Salt",
+    "población": 29836,
+    "provincia": "Gerona",
+    "comarca": "Gironés"
+  },
+  {
+    "municipio": "Sitges",
+    "población": 28527,
+    "provincia": "Barcelona",
+    "comarca": "Garraf"
+  },
+  {
+    "municipio": "Premiá de Mar",
+    "población": 28049,
+    "provincia": "Barcelona",
+    "comarca": "Maresme"
+  },
+  {
+    "municipio": "San Vicente dels Horts",
+    "población": 27982,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Martorell",
+    "población": 27681,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "San Andrés de la Barca",
+    "población": 27303,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Pineda de Mar",
+    "población": 26986,
+    "provincia": "Barcelona",
+    "comarca": "Maresme"
+  },
+  {
+    "municipio": "Esparreguera",
+    "población": 26288,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  },
+  {
+    "municipio": "Molins de Rey",
+    "población": 26145,
+    "provincia": "Barcelona",
+    "comarca": "Bajo Llobregat"
+  }
+]

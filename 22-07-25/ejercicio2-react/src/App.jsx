@@ -16,10 +16,9 @@ function App() {
         paddingTop: '40px',
       }}
     >
-      {/* Título principal */}
+      
       <h1 style={{ marginBottom: '60px' }}>Ejercicio 2</h1>
 
-      {/* Contenedor de los tres componentes */}
       <div
         style={{
           display: 'flex',
