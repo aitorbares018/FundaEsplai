@@ -12,7 +12,7 @@ function Calculadora() {
     }
     if (tecla === '=') {
       try {
-        // Reemplazamos símbolos visuales por símbolos que eval entiende
+        
         const expresion = display.replace(/÷/g, '/').replace(/×/g, '*');
         const resultado = eval(expresion);
         setDisplay(String(resultado));
