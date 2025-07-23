@@ -1,0 +1,212 @@
+/* --- RESET --- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* --- NAVBAR --- */
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+nav .links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav .links a:hover,
+nav .links a.active {
+  color: #007bff;
+}
+
+/* --- MAIN --- */
+main {
+  padding: 30px;
+}
+
+/* --- CURSOS --- */
+.curso-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.curso-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.curso-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.curso-info h3 {
+  margin: 0 0 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* --- LOGIN --- */
+.login-box {
+  max-width: 400px;
+  background: white;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+.home {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.home h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.home ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.home li {
+  margin-bottom: 8px;
+}
+
+.contacto {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.contacto h1 {
+  color: #007bff;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contacto h3 {
+  margin-top: 25px;
+  color: #444;
+}
+
+.contacto p {
+  margin: 5px 0 15px;
+  color: #555;
+}
+
+.contacto a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+.cursos {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filtros button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filtros button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.cursos ul li {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+}
+
+.cursos ul li h3 {
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.cursos ul li a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cursos ul li a:hover {
+  text-decoration: underline;
+}

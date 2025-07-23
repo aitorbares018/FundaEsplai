@@ -1,0 +1,43 @@
+.curso-detalle {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.curso-detalle h1 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-size: 2rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3rem;
+}
+
+.curso-detalle p {
+  font-size: 1.1rem;
+  margin: 0.6rem 0;
+  color: #34495e;
+}
+
+.curso-detalle strong {
+  color: #2980b9;
+}
+
+.curso-detalle .volver {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.curso-detalle .volver:hover {
+  background-color: #2980b9;
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+const cursosData = [
+  {
+    id: 'react',
+    nombre: 'React desde Cero',
+    categoria: 'frontend',
+    descripcion: 'Aprende a construir interfaces modernas con React y JSX.',
+    duracion: '12 horas',
+    nivel: 'Intermedio',
+    instructor: 'Laura Méndez',
+  },
+  {
+    id: 'vue',
+    nombre: 'Vue 3 Avanzado',
+    categoria: 'frontend',
+    descripcion: 'Crea aplicaciones con composición API, Pinia y más.',
+    duracion: '10 horas',
+    nivel: 'Avanzado',
+    instructor: 'Carlos López',
+  },
+  {
+    id: 'node',
+    nombre: 'Node.js con Express',
+    categoria: 'backend',
+    descripcion: 'API REST, middlewares, rutas y despliegue en la nube.',
+    duracion: '15 horas',
+    nivel: 'Intermedio',
+    instructor: 'Ana Ruiz',
+  },
+  {
+    id: 'python',
+    nombre: 'Python para Principiantes',
+    categoria: 'backend',
+    descripcion: 'Variables, estructuras de control, funciones y módulos.',
+    duracion: '8 horas',
+    nivel: 'Básico',
+    instructor: 'Javier Soto',
+  },
+  {
+    id: 'mongo',
+    nombre: 'MongoDB desde Cero',
+    categoria: 'bd',
+    descripcion: 'Modelado de datos, consultas, agregaciones y conexión con Node.',
+    duracion: '6 horas',
+    nivel: 'Básico',
+    instructor: 'Elena García',
+  },
+  {
+    id: 'sql',
+    nombre: 'SQL y PostgreSQL',
+    categoria: 'bd',
+    descripcion: 'Domina SELECT, JOINs, subconsultas y funciones SQL.',
+    duracion: '9 horas',
+    nivel: 'Intermedio',
+    instructor: 'Luis Pérez',
+  },
+];
+
+export default cursosData;
