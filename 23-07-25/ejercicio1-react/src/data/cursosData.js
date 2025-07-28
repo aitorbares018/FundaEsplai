@@ -53,6 +53,33 @@ const cursosData = [
     nivel: 'Intermedio',
     instructor: 'Luis Pérez',
   },
+  {
+    id: 'docker',
+    nombre: 'Docker para Desarrolladores',
+    categoria: 'backend',
+    descripcion: 'Contenedores, imágenes, redes y orquestación con Docker Compose.',
+    duracion: '7 horas',
+    nivel: 'Intermedio',
+    instructor: 'Aitana Mendoza',
+  },
+  {
+    id: 'typescript',
+    nombre: 'TypeScript para React',
+    categoria: 'frontend',
+    descripcion: 'Tipos, interfaces, generics y mejores prácticas en React.',
+    duracion: '11 horas',
+    nivel: 'Avanzado',
+    instructor: 'Marc Perez',
+  },
+  {
+    id: 'graphql',
+    nombre: 'GraphQL con Apollo',
+    categoria: 'backend',
+    descripcion: 'Crea APIs eficientes con GraphQL y Apollo Server.',
+    duracion: '8 horas',
+    nivel: 'Intermedio',
+    instructor: 'Sara Jiménez',
+  },
 ];
 
 export default cursosData;

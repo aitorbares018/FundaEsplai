@@ -1,15 +1,46 @@
-import { Outlet } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import { Outlet, NavLink } from 'react-router-dom';
 
-function MainLayout() {
+export default function MainLayout() {
   return (
-    <div>
-      <Navbar />
-      <main style={{ padding: '20px' }}>
+    <>
+      <header>
+        <NavLink to="/" className="logo-link">
+          <h1>🚀 Portal Cursos</h1>
+        </NavLink>
+        <nav>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            Inicio
+          </NavLink>
+          <NavLink
+            to="/cursos"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            Cursos
+          </NavLink>
+          <NavLink
+            to="/admin"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            Admin
+          </NavLink>
+          <NavLink
+            to="/login"
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
+            Login
+          </NavLink>
+        </nav>
+      </header>
+
+      <main>
         <Outlet />
       </main>
-    </div>
+
+      <footer>© 2025 Portal de Cursos. Todos los derechos reservados.</footer>
+    </>
   );
 }
-
-export default MainLayout;

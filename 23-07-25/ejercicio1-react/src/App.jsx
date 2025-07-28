@@ -1,33 +1,28 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import Cursos from './pages/Cursos';
 import CursoDetalle from './pages/CursoDetalle';
-import Contacto from './pages/Contacto';
-import Perfil from './pages/Perfil';
 import Login from './pages/Login';
+import Admin from './pages/Admin';
+import NotFound from './pages/NotFound';
 import './App.css';
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 
-// Simulación de autenticación
-const estaAutenticado = false;
 
-function App() {
+
+export default function App() {
   return (
+    
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="cursos" element={<Cursos />} />
         <Route path="cursos/:id" element={<CursoDetalle />} />
-        <Route path="contacto" element={<Contacto />} />
-        <Route
-          path="perfil"
-          element={estaAutenticado ? <Perfil /> : <Navigate to="/login" />}
-        />
         <Route path="login" element={<Login />} />
-        <Route path="*" element={<h2>404 - Página no encontrada</h2>} />
+        <Route path="admin" element={<Admin />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
 }
-
-export default App;
